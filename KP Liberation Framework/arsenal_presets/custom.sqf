@@ -123,6 +123,7 @@ GRLIB_arsenal_magazines=[
 	"ACE_FlareTripMine_Mag",
 	"APERSMine_Range_Mag",
 	"AMP_Breaching_Charge_Mag"
+	
 ];//2
 
 GRLIB_arsenal_items=[
