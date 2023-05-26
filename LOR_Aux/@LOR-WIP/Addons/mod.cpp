@@ -1,0 +1,12 @@
+name = "Legacy of Republic Auxialiary Mod";
+action = "https://steamcommunity.com/sharedfiles/filedetails/?id=2962608021";
+actionName = "Workshop";
+author = "[LoR]Development Team";
+hideName = 0;
+hidePicture = 0;
+logo = "";
+logoOver = "";
+logoSmall = "";
+overview = "http://discord.legacy-republic.de";
+picture = "";
+tooltipOwned = "http://discord.legacy-republic.de";

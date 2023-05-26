@@ -95,7 +95,7 @@ class LOR_CIS_B1
 		};
 		class Unit7: Unit6
 		{
-			vehicle = "LOR_B1_AT_SPECIALIST"
+			vehicle = "LOR_B1_AT_SPECIALIST";
 			position[] = {2,0,0};
 		};
 		class Unit8: Unit7
@@ -244,7 +244,7 @@ class LOR_CIS_B1
 		};
 		class Unit7: Unit6
 		{
-			vehicle = "LOR_B1_GRENADIER"
+			vehicle = "LOR_B1_GRENADIER";
 			position[] = {2,0,0};
 		};
 		class Unit8: Unit7
@@ -403,22 +403,22 @@ class LOR_CIS_B1
 		};
 		class Unit3: Unit2
 		{
-			vehicle = "LOR_B1_GRENADIER"
+			vehicle = "LOR_B1_GRENADIER";
 			position[] = {-2,0,0};
 		};
 		class Unit4: Unit3
 		{
-			vehicle = "LOR_B1_RIFLEMAN_AT"
+			vehicle = "LOR_B1_RIFLEMAN_AT";
 			position[] = {-2,2,0};
 		};
 		class Unit5: Unit4
 		{
-			vehicle = "LOR_B1_MACHINEGUNNER"
+			vehicle = "LOR_B1_MACHINEGUNNER";
 			position[] = {0,2,0};
 		};
 		class Unit6: Unit5
 		{
-			vehicle = "LOR_B1_MARKSMAN"
+			vehicle = "LOR_B1_MARKSMAN";
 			position[] = {2,2,0};
 		};
 		class Unit7: Unit6
