@@ -36,36 +36,30 @@ There are 3 tiers for every category. If the strength of the guerillas will incr
 ["Weaponclassname","Magazineclassname","magazine amount","optic","tripod"]
 You can leave optic and tripod empty with "" */
 KP_liberation_guerilla_weapons_1 = [
-    ["JLTS_E5","JLTS_E5_mag",6,"",""]
+    ["Aux501_Weaps_E5","Aux501_Weapons_Mags_E5100",6,"",""]
 ];
 
 KP_liberation_guerilla_weapons_2 = [
-    ["JLTS_E5","JLTS_E5_mag",6,"",""],
-    ["JLTS_DC15S","JLTS_DC15S_mag",6,"",""]
+    ["Aux501_Weaps_E5","Aux501_Weapons_Mags_E5100",6,"",""],
+    ["Aux501_Weaps_DC15S","Aux501_weapons_Mags_10mw50",6,"",""]
 ];
 
 KP_liberation_guerilla_weapons_3 = [
-    ["JLTS_E5","JLTS_E5_mag",6,"",""],
-    ["JLTS_DC15S","JLTS_DC15S_mag",6,"",""],
-    ["JLTS_DC15A","JLTS_DC15A_mag",6,"",""]
+    ["Aux501_Weaps_E5","Aux501_Weapons_Mags_E5100",6,"",""],
+    ["Aux501_Weaps_DC15S","Aux501_weapons_Mags_10mw50",6,"",""],
+    ["Aux501_Weaps_DC15A","Aux501_weapons_Mags_20mwdp30",6,"",""]
 ];
 
 // Uniforms
 KP_liberation_guerilla_uniforms_1 = [
-    "LST_Jedi_Uniform_KellaV2",
-    "LST_Jedi_Uniform_Kella",
-    "U_C_Poloshirt_salmon",
-    "U_C_Poloshirt_redwhite",
-    "U_C_Poloshirt_stripped",
-    "U_C_Poloshirt_tricolour",
-    "U_C_Poor_1",
-    "U_C_Man_casual_1_F",
-    "U_C_Man_casual_2_F",
-    "U_C_Man_casual_3_F",
-    "U_C_Man_casual_4_F",
-    "U_C_Man_casual_5_F",
-    "U_C_Man_casual_6_F",
-    "U_I_G_resistanceLEader_F"
+    "U_BG_Guerrilla_6_1",
+    "U_BG_Guerilla1_1",
+    "U_BG_Guerilla1_2_F",
+    "U_BG_Guerilla2_2",
+    "U_BG_Guerilla2_1",
+    "U_BG_Guerilla2_3",
+    "U_BG_Guerilla3_1",
+    "U_BG_leader"
 ];
 
 KP_liberation_guerilla_uniforms_2 = [
@@ -75,22 +69,16 @@ KP_liberation_guerilla_uniforms_2 = [
     "OPTRE_Ins_ER_rolled_OD_blknred",
     "OPTRE_Ins_ER_rolled_OD_crimson",
     "OPTRE_Ins_ER_rolled_surplus black",
-    "OPTRE_Ins_ER_rolled_surplus_crimson",
+    "OPTRE_Ins_ER_rolled_surplus_crimson"
+];
+
+KP_liberation_guerilla_uniforms_3 = [
     "OPTRE_Ins_ER_jacket_surgeon1",
     "OPTRE_Ins_ER_jacket_surgeon2",
     "OPTRE_Ins_ER_jacket_surplus_brown",
     "OPTRE_Ins_ER_jacket_surplus_OD",
     "OPTRE_Ins_ER_jacket_surplus_redshirt",
     "OPTRE_Ins_URF_Combat_Uniform"
-];
-
-KP_liberation_guerilla_uniforms_3 = [
-    "JMM_U_cUniform_ox02_F",
-    "JMM_U_cUniform_ox02_c1_F",
-    "JMM_U_cUniform_ox02_c2_F",
-    "JMM_U_cUniform_ox02_c3_F",
-    "JMM_U_cUniform_ox02_m_F",
-    "JMM_U_cUniform_pdf_F"
 ];
 
 // Vests
@@ -119,13 +107,9 @@ KP_liberation_guerilla_vests_2 = [
 ];
 
 KP_liberation_guerilla_vests_3 = [
-    "OPTRE_UNSC_M52A_Armor_MG_URB",
-    "OPTRE_UNSC_M52A_Armor_Breacher_URB",
-    "OPTRE_UNSC_M52A_Armor_Grenadier_URB",
-    "OPTRE_UNSC_M52A_Armor_Medic_URB",
-    "OPTRE_UNSC_M52A_Armor_Rifleman_URB",
-    "OPTRE_UNSC_M52A_Armor4_URB",
-    "OPTRE_Ins_URF_Armor1"
+    "OPTRE_Ins_URF_Armor1",
+    "V_CarrierRigKBT_01_heavy_EAF_F",
+    "V_CarrierRigKBT_01_heavy_Olive_F"
 ];
 
 // Headgear
@@ -166,8 +150,10 @@ KP_liberation_guerilla_headgear_2 = [
 ];
 
 KP_liberation_guerilla_headgear_3 = [
-    "H_PilotHelmetHeli_O",
-    "H_PilotHelmet_Heli_B"
+    "H_HelmetCrew_I",
+    "H_Shemag_olive",
+    "OPTRE_Ins_URF_Helmet4",
+    "OPTRE_Ins_URF_Helmet2"
 ];
 
 // Facegear. Applies for tier 2 and 3.
