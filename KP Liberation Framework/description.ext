@@ -186,7 +186,7 @@ skipLobby = 0;
 showMap = 1;
 
 // Enable or disable availability of createVehicleLocal
-unsafeCVL = 1;
+unsafeCVL = 0;
 
 
 /*
