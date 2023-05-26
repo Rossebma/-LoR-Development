@@ -490,6 +490,7 @@ GRLIB_arsenal_items=[
 	
 	"LOR_infantry_helmet_Wolf",
 	"LOR_infantry_helmet_Thinker",
+	"LOR_arc_helmet_Wolf",
 
 	"RD501_infantry_helmet_jlts_recruit",
 
