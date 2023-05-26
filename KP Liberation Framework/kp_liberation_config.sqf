@@ -96,7 +96,7 @@ KP_liberation_preset_blufor = 0;
 20 = CUP British Armed Forces (Woodland) 
 21 = Conferderation of independent Systems Standard
 22 = Conferderation of independent Systems Winter */
-KP_liberation_preset_opfor = 16;
+KP_liberation_preset_opfor = 19;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
