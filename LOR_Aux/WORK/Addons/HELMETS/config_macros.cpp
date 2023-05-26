@@ -22,3 +22,12 @@
 			displayName = [LoR] Helmet ('##NAME##');\
 			hiddenSelectionsTextures[] = {macro_custom_helmet_textures##\##NAME##.paa};\
 		};
+
+//ARC JLTS
+	#define NEW_LOR_Arc_Helm_JLTS(NAME)\
+		class macro_new_helmet(arc,NAME) : macro_new_helmet(arc,base_jlts)\
+		{\
+			scope = 2;\
+			displayName = [LOR] ARC HELM ('##NAME##');\
+			hiddenSelectionsTextures[] = {macro_custom_helmet_textures##\arc\##NAME##.paa};\
+		};
