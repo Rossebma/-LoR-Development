@@ -1,32 +1,82 @@
 GRLIB_arsenal_weapons=[
 	//Rifles
-	"3AS_Valken38X_F",
-	"Aux501_Weaps_Z6",
-	"212th_DC15XM",
-	"Aux501_Weaps_DP23",
-	"3AS_DC15A_GL",
-	"3AS_DC15A_F",
-	"3AS_DC15C_F",
-	"3AS_DC15C_GL",
-	"3AS_DC15L_F",
-	"3AS_DC15S_F",
-	"LFP_DC19",
-	"3AS_WestarM5_F",
-	"327th_firepuncher_rifle",
+	"Aux501_Weaps_DC15A",				//[501st] DC-15A
+	"Aux501_Weaps_DC15A_UGL",			//[501st] DC-15A UGL
+	"Aux501_Weaps_DC15C",				//[501st] DC-15C
+	"Aux501_Weaps_DC15C_UGL",			//[501st] DC-15C UGL
+	"Aux501_Weaps_DC15L",				//[501st] DC-15L
+	"Aux501_Weaps_DC15S",				//[501st] DC-15S
+	"Aux501_Weaps_DC15X",				//[501st] DC-15X
+	"Aux501_Weaps_DP23",				//[501st] DP-23
+	"Aux501_Weaps_RGL6",				//[501st] RGL-6
+	"Aux501_Weaps_Valken38X",			//[501st] Valken38X
+	"Aux501_Weaps_Z6",					//[501st] Z-6 Rotory Blaster Cannon
+	"LFP_DC19",							//DC-19 cabine {Last Force Project}
+	"327th_firepuncher_rifle",			//[327th] 773 Firepuncher Anti-Materiel Rifle
 
 	//Pistols
-	"3AS_DC17S_F",
-	"3AS_DC17STest_F",
-	"LFP_dc17arc_Dual",
-	"LFP_dc17arc",
+	"Aux501_Weaps_DC17",				//[501st] DC-17
+	"Aux501_Weaps_DC17_Signal",			//[501st] DC-17 Signal Pistol
+	"Aux501_Weaps_DC17A",				//[501st] DC-17A
+	"LFP_dc17arc",						//DC17ARC {Last Force Project}
 
 	//Rocket Launcher
-	"Aux501_Weaps_RPS6",
-	"212th_RPS6"
+	"Aux501_Weaps_RPS6",				//[501st] RPS-6 Rocket Launcher
+	"Aux501_Weaps_PLX1",				//[501st] PLX-1 Guided Launcher
+	"LFP_rps6_loaded"					//RPS-6 rocket launcher disposable {Last Force Project}
 ];//1
 
 
 GRLIB_arsenal_magazines=[
+
+	//UGL 
+	"Aux501_Weapons_Mags_stun5",
+	"Aux501_Weapons_Mags_GL_AP2",
+	"Aux501_Weapons_Mags_GL_flare_Blue3",
+	"Aux501_Weapons_Mags_GL_flare_Cyan3",
+	"Aux501_Weapons_Mags_GL_flare_Green3",
+	"Aux501_Weapons_Mags_GL_flare_IR3",
+	"Aux501_Weapons_Mags_GL_flare_Purple3",
+	"Aux501_Weapons_Mags_GL_flare_Red3",
+	"Aux501_Weapons_Mags_GL_flare_White3",
+	"Aux501_Weapons_Mags_GL_flare_Yellow3",
+	"Aux501_Weapons_Mags_GL_HE3",
+	"Aux501_Weapons_Mags_GL_smoke_blue3",
+	"Aux501_Weapons_Mags_GL_smoke_green3",
+	"Aux501_Weapons_Mags_GL_smoke_orange3",
+	"Aux501_Weapons_Mags_GL_smoke_purple3",
+	"Aux501_Weapons_Mags_GL_smoke_red3",
+	"Aux501_Weapons_Mags_GL_smoke_yellow3",
+	"Aux501_Weapons_Mags_GL_smoke_white6",
+	"ACE_HuntIR_M203",
+
+	//Rifles
+	"Aux501_Weapons_Mags_20mwdp30",				//[501st] DC-15A
+	"Aux501_Weapons_Mags_20mwup30",				//[501st] DC-15A
+	"Aux501_Weapons_Mags_20mw40",				//[501st] DC-15C
+	"Aux501_Weapons_Mags_20mw240",				//[501st] DC-15L
+	"Aux501_Weapons_Mags_10mw50",				//[501st] DC-15S
+	"Aux501_Weapons_Mags_40mw5",				//[501st] DC-15X
+	"Aux501_Weapons_Mags_shotgun_scatter20",	//[501st] DP-23
+	"Aux501_Weapons_Mags_RGL_AP6",				//[501st] RGL-6
+	"Aux501_Weapons_Mags_RGL_HE6",				//[501st] RGL-6
+	"Aux501_Weapons_Mags_30mw10",				//[501st] Valken38X
+	"Aux501_Weapons_Mags_10mw400",				//[501st] Z-6 Rotory Blaster Cannon
+	"LFP_DC19_Mag",								//DC-19 cabine {Last Force Project}
+	"327th_Firepuncher_mag",					//[327th] 773 Firepuncher Anti-Materiel Rifle
+
+	//Pistols
+	"Aux501_Weapons_Mags_20mwdp20",				//[501st] DC-17
+	"Aux501_Weapons_Mags_20mw30",				//[501st] DC-17A
+	"LFP_DC17SA_Mag",							//DC17ARC {Last Force Project}
+
+	//Launchers 
+	"Aux501_Weapons_Mags_plx1_at",				//[501st] PLX-1 Guided Launcher
+	"Aux501_Weapons_Mags_plx1_ap",				//[501st] PLX-1 Guided Launcher
+	"Aux501_Weapons_Mags_rps6_at",				//[501st] RPS-6 Rocket Launcher
+	"Aux501_Weapons_Mags_rps6_aa",				//[501st] RPS-6 Rocket Launcher
+	"LFP_rps6_preload",							//RPS-6 rocket launcher disposable {Last Force Project}
+
 	//Grenades
 	"SmokeShellBlue",
 	"SmokeShellGreen",
@@ -40,6 +90,12 @@ GRLIB_arsenal_magazines=[
 	"212th_3rnd_Plasma_dc15XM_mag",
 	"Aux501_Weapons_Mags_Thermal_Imploder",
 	"Aux501_Weapons_Mags_Thermal_Impacter",
+	"ACE_Chemlight_HiBlue",
+	"ACE_Chemlight_HiGreen",
+	"ACE_Chemlight_HiRed",
+	"ACE_Chemlight_HiYellow",
+	"ACE_Chemlight_IR",
+
 	//etc 
 	"Laserbatteries",
 
@@ -66,88 +122,13 @@ GRLIB_arsenal_magazines=[
 	"TrainingMine_Mag",
 	"ACE_FlareTripMine_Mag",
 	"APERSMine_Range_Mag",
-	"AMP_Breaching_Charge_Mag",
-
-	//Unsorted
-	"Aux501_Weapons_Mags_10mw50",
-	"3AS_60Rnd_EC50_Mag",
-	"Aux501_Weapons_Mags_20mwdp30",
-	"Aux501_Weapons_Mags_30mw10",
-	"Aux501_Weapons_Mags_10mw400",
-	"Aux501_Weapons_Mags_rps6_at",
-	"Aux501_Weapons_Mags_rps6_aa",
-	"MRC_Westar_Mag",
-	"Onyx_DC17DUAL_mag",
-	"MRC_Stun_Mag",
-	"LFP_DC17DUALARC_Mag",
-	"Aux501_Weapons_Mags20mw40",
-	"Aux501_Weapons_Mags_GL_HE1",
-	"ACE_HunrIR_M203",
-	"Aux501_Weapons_Mags_GL_smoke_white6",
-	"Aux501_Weapons_Mags_stun5",
-	"Aux501_Weapons_Mags_GL_flare_IR3",
-	"MRC_DC17DUAL_mag",
-	"Aux501_Weapons_Mags_20mw40",
-	"ACE_HuntIR_M203",
-	"Aux501_Weapons_Mags_shotgun_scatter20",
-	"ACE_HuntIR_monitor",
-	"Aux_501_Weapons_Mags_GL_flare_Blue3",
-	"Aux501_Weapons_Mags_GL_flare_Green3",
-	"Aux501_Weapons_Mags_GL_flare_Red3",
-	"Aux501_Weapons_Mags_GL_flare_White3",
-	"Aux501_Weapons_Mags_GL_smoke_green3",
-	"Aux501_Weapons_Mags_GL_smoke_red3",
-	"3Rnd_UGL_FlareCIR_F",
-	"OPTRE_3Rnd_Smoke_Grenade_shell",
-	"3Rnd_Smoke_Grenade_shell",
-	"3Rnd_SmokeRed_Grenade_shell",
-	"3Rnd_SmokeGreen_Grenade_shell",
-	"3Rnd_SmokeBlue_Grenade_shell",
-	"3Rnd_HE_Grenade_shell",
-	"1Rnd_HE_Grenade_shell",
-	"UGL_FlareCIR_F",
-	"ACE_HuntIR_M203",
-	"OPTRE_1Rnd_Smoke_Grenade_shell",
-	"ACE_Chemlight_HiBlue",
-	"ACE_Chemlight_HiGreen",
-	"ACE_Chemlight_HiRed",
-	"ACE_Chemlight_HiYellow",
-	"ACE_Chemlight_IR",
-	"212th_3AS_WestarM5_Mag",
-	"3AS_6Rnd_HE_Grenade_shell",
-	"Aux501_Weapons_Mags_20mw30",
-	"Aux501_Weapons_Mags_Thermal_Detonator",
-	"Aux501_Weapons_Mags_40mw5",
-	"212th_RPS6_HEAA",
-	"RPG32_F",
-	"Aux501_Weapons_Mags_20mwdp20",
-	"RPG32_HE_F",
-	"327th_JLTS_DC15S_magazine",
-	"3AS_6Rnd_HE_Grenade_shell",
-	"212th_3AS_WestarM5_Mag",
-	"3Rnd_HE_Grenade_shell",
-	"1Rnd_HE_Grenade_shell",
-	"MRC_65x39_Ball_x50_mag",
-	"3AS_40Rnd_EC40_Mag",
-	"3AS_45Rnd_EC50_Mag",
-	"212th_RPS6_HEDP",
-	"3AS_200Rnd_EC40_Mag",
-	"3AS_60Rnd_EC30_mag",
-	"3AS_100Rnd_EC40_mag",
-	"3AS_5Rnd_EC80_mag",
-	"3AS_AntiArmour_mag",
-	"3AS_16Rnd_EC20_Mag",
-	"3AS_10Rnd_Test_mag",
-	"212th_15rnd_Energy_dc15XM_mag",
-	"212th_15rnd_Energy_dc15XM_mag",
-	"3AS_10Rnd_EC80_Mag",
-	"327th_Firepuncher_mag",
-	"LFP_DC17SA_Mag",
-	"LFP_DC19_Mag"
+	"AMP_Breaching_Charge_Mag"
+	
 ];//2
 
 GRLIB_arsenal_items=[
 	//Unsorted
+	"ACE_HuntIR_monitor",
 
 	//vests 
 	"RD501_501_inf_vest_acc_1",
@@ -258,79 +239,40 @@ GRLIB_arsenal_items=[
 	"LOR_ARF_Uniform_Woodland",
 
 
-	//weapon attachements
-	"3as_optic_scope_westarm5",
-	"Ifp_westarm5aholo_scope",
-	"Aux501_cows_LEScope_DC15A",
-	"Aux501_cows_DMS_TI",
-	"Aux501_cows_DMS_2_TI",
-	"Aux501_cows_DMS_3_TI",
-	"Aux501_cows_DMS_4_TI",
-	"Aux501_cows_DMS",
-	"RD501_JLTS_Clone_LR_attachment",
-	"RD501_Holosight",
-	"Aux501_cows_Holosight",
-	"RD501_Holosight_2",
-	"Aux501_cows_Holosight_2",
-	"RD501_Holosight_3",
-	"Aux501_cows_Holosight_3",
-	"RD501_DMS",
-	"RD501_DMS_2",
-	"Aux501_cows_DMS_2",
-	"RD501_DMS_3",
-	"Aux501_cows_DMS_3",
-	"RD501_DMS_4",
-	"Aux501_cows_DMS_4",
-	"RD501_HoloScope",
-	"Aux501_cows_HoloScope",
-	"RD501_HoloScope_2",
-	"Aux501_cows_HoloScope_2",
-	"RD501_HoloScope_3",
-	"Aux501_cows_HoloScope_3",
-	"Aux501_cows_pistol",
-	"RD501_pistol",
-	"Aux501_cows_pistol_2",
-	"RD501_pistol_2",
-	"LFP_westarcarabine_scope",
-	"arc_b",
-	"501st_inf_fw_acc_01",
-	"501st_inf_acc_02",
-	"Aux501_muzzle_flash",
-	"Aux501_cows_LRPS",
-	"bipod_01_F_blk",
-	"JLTS_DC17SA_flashlight",
-	"RD501_muzzle_flas",
-	"acc_pointer_IR",
-	"aux327th_holosight_2xblu",
-	"aux327th_holosight_blu",
-	"3as_bipod_dc15l_f",
-	"optre_m7_sight",
-	"aux327th_surpressor",
-	"acc_flashlight",
-	"acc_pointer_ir",
-	"ace_acc_pointer_green",
-	"aux327th_holosight_blu",
-	"Aux501_cows_mrco_3",
-	"Aux501_cows_mrco",
-	"mrc_secondary_led_flashlight",
-	"3as_optic_scope_westarm5",
-    "mrc_m7_sight",
-    "lfp_westarm5aholo_scope",
-    "mrc_led_flashlight",
-	"mrc_acc_laser_ir",
-	"3as_optic_lescope_dc15a",
-	"3as_optic_red_dc15a",
-	"acc_pointer_ir",
-	"acc_flashlight",
-	"3as_muzzle_le_dc15a",
-	"3as_optic_acog_dc15c",
-	"3as_optic_reflex_dc15c",
-	"3as_optic_dc15l",
-	"3as_bipod_dc15l_f",
-	"3as_optic_holo_dc15s",
-	"3as_optic_scope_westarm5",
-	"3as_optic_vk38x",
-	"3as_bipod_vk38x_f",
+	//Scopes
+	"aux501_cows_lescope_dc15a",	//DC-15LE scopeName
+	"aux501_cows_dms",				//DMS LR 4-6x Scope A
+	"aux501_cows_dms_2",			//DMS LR 4-6x Scope B
+	"aux501_cows_dms_3",			//DMS LR 4-6x Scope C
+	"aux501_cows_dms_4",			//DMS LR 4-6x Scope D
+	"aux501_cows_holosight",		//Holo Sight A
+	"aux501_cows_holosight_2",		//Holo Sight B 
+	"aux501_cows_holosight_3",		//Holo Sight C  
+	"3as_optic_acog_dc15c",			//3AS ACOG Optic 
+	"aux501_cows_mrco",				//Medium Range Scope A
+	"aux501_cows_mrco_2",			//Medium Range Scope B
+	"aux501_cows_mrco_3",			//Medium Range Scope C
+	"aux501_cows_rco",				//Short Range Scope A
+	"aux501_cows_rco_2",			//Short Range Scope B
+	"aux501_cows_rco_3",			//Short Range Scope C
+	"aux501_cows_holoscope",		//Holo Scope A
+	"aux501_cows_holoscope_2",		//Holo Scope B
+	"aux501_cows_holoscope_3",		//Holo Scope C
+	"aux501_cows_lrps",				//LRPS LR 12-20x Scope  
+	"aux501_cows_dms_ti",			//DMS LR 6-12x Scope A
+	"aux501_cows_dms_2_ti",			//DMS LR 6-12x Scope B
+	"aux501_cows_dms_3_ti",			//DMS LR 6-12x Scope C
+	"aux501_cows_dms_4_ti",			//DMS LR 6-12x Scope D
+	"aux501_cows_pistol",			//Pistol Holo A
+	"aux501_cows_pistol_2",			//Pistol Holo B
+
+	//Weapon Atachements
+	"acc_pointer_ir",				//Laser Pointer (red)
+	"acc_flashlight",				//UTG Defender 126
+	"3as_bipod_vk38x_f",			//3AS VK-38X Bipod
+	"3as_bipod_dc15l_f",			//3AS DC15L Bipod
+	"bipod_01_f_blk",				//Bipod (Black) [NATO]
+	"aux501_muzzle_flash",			//Flash Hider Chip
 
 
 	//medical items
