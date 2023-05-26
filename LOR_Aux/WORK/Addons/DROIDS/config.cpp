@@ -83,8 +83,8 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
-	class MRC_B1;
-	class LOR_B1_RIFLEMAN : MRC_B1
+	class JLTS_Droid_B1_E5;
+	class LOR_B1_RIFLEMAN : JLTS_Droid_B1_E5
 	{
 		displayName = "B1 | Rifleman";
 		faction="LOR_CIS";
@@ -140,8 +140,7 @@ class CfgVehicles
 
 		};
 	};
-	class MRC_B1_Support;
-	class LOR_B1_SENTRY : MRC_B1_Support
+	class LOR_B1_SENTRY : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Sentry";
 		faction="LOR_CIS";
@@ -185,8 +184,7 @@ class CfgVehicles
 			"3AS_60Rnd_EM50_RedPlasma"
 		};
 	};
-	class MRC_B1_Darkgreen;
-	class LOR_B1_TEAMLEADER : MRC_B1_Darkgreen
+	class LOR_B1_TEAMLEADER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Teamleader";
 		faction="LOR_CIS";
@@ -236,8 +234,7 @@ class CfgVehicles
             "SmokeShell"
 		};
 	};
-	class MRC_B1_Swampcolour;
-	class LOR_B1_SQUADLEADER : MRC_B1_Swampcolour
+	class LOR_B1_SQUADLEADER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Squadleader";
 		faction="LOR_CIS";
@@ -276,8 +273,7 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_CISDetonator",
 			"Aux501_Weapons_Mags_CISDetonator",
             "SmokeShell",
-			"SmokeShell",
-			"SquadShieldMagazine"
+			"SmokeShell"
 		};
 		respawnMagazines[] = 
 		{
@@ -287,12 +283,10 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_CISDetonator",
 			"Aux501_Weapons_Mags_CISDetonator",
             "SmokeShell",
-			"SmokeShell",
-			"SquadShieldMagazine"
+			"SmokeShell"
 		};
 	};
-	class MRC_B1_Officer;
-	class LOR_B1_PLATOONLEADER : MRC_B1_Officer
+	class LOR_B1_PLATOONLEADER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Platoonleader";
 		faction="LOR_CIS";
@@ -331,8 +325,7 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_CISDetonator",
 			"Aux501_Weapons_Mags_CISDetonator",
             "SmokeShell",
-			"SmokeShell",
-			"SquadShieldMagazine"
+			"SmokeShell"
 		};
 		respawnMagazines[] = 
 		{
@@ -342,12 +335,11 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_CISDetonator",
 			"Aux501_Weapons_Mags_CISDetonator",
             "SmokeShell",
-			"SmokeShell",
-			"SquadShieldMagazine"
+			"SmokeShell"
 		};
 	};
-	class MRC_B1_AT;
-	class LOR_B1_RIFLEMAN_AT : MRC_B1_AT
+	class JLTS_Droid_B1_AT;
+	class LOR_B1_RIFLEMAN_AT : JLTS_Droid_B1_AT
 	{
 		displayName = "B1 | Rifleman (AT)";
 		faction="LOR_CIS";
@@ -384,21 +376,18 @@ class CfgVehicles
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma",
-			"JLTS_RPS6_mag",
+			"3AS_60Rnd_EM50_RedPlasma"
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 		respawnMagazines[] = 
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma",
-			"JLTS_RPS6_mag",
+			"3AS_60Rnd_EM50_RedPlasma"
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 	};
-	class MRC_B1_Grey;
-	class LOR_B1_GRENADIER : MRC_B1_Grey
+	class LOR_B1_GRENADIER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Grenadier";
 		faction="LOR_CIS";
@@ -449,8 +438,7 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_RG4D30"
 		};
 	};
-	class MRC_B1_Black;
-	class LOR_B1_MACHINEGUNNER : MRC_B1_Black
+	class LOR_B1_MACHINEGUNNER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Machinegunner";
 		faction="LOR_CIS";
@@ -550,8 +538,7 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 	};
-	class MRC_B1_Sniper;
-	class LOR_B1_MARKSMAN : MRC_B1_Sniper
+	class LOR_B1_MARKSMAN : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Marksman";
 		faction="LOR_CIS";
@@ -606,7 +593,7 @@ class CfgVehicles
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 	};
-	class LOR_B1_SHARPSHOOTER : LOR_B1_MARKSMAN
+	class LOR_B1_SHARPSHOOTER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Sharpshooter";
 		faction="LOR_CIS";
@@ -709,21 +696,18 @@ class CfgVehicles
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma",
-			"MRC_e60r_aa",
+			"3AS_60Rnd_EM50_RedPlasma"
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 		respawnMagazines[] = 
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma",
-			"MRC_e60r_aa",
+			"3AS_60Rnd_EM50_RedPlasma"
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 	};
-	class MRC_B1_White;
-	class LOR_B1_MEDIC : MRC_B1_White
+	class LOR_B1_MEDIC : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Medic";
 		faction="LOR_CIS";
@@ -778,8 +762,7 @@ class CfgVehicles
 			"Medikit"
 		};
 	};
-	class MRC_B1_Firefighter;
-	class LOR_B1_ENGINEER : MRC_B1_Firefighter
+	class LOR_B1_ENGINEER : LOR_B1_RIFLEMAN
 	{
 		displayName = "B1 | Engineer";
 		faction="LOR_CIS";
