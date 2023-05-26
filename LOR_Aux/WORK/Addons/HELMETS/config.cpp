@@ -14,8 +14,8 @@ class CfgPatches
         weapons[]={
             macro_new_helmet(infantry,jlts_recruit),
             "LOR_HELMET_INF_JUNGLE",
-            macro_new_helmet(infantry,Thinker)
-            macro_new_helmet(arc,Wolf);
+            macro_new_helmet(infantry,Thinker),
+            macro_new_helmet(arc,Wolf)
         };
     };
 };
