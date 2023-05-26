@@ -376,14 +376,14 @@ class CfgVehicles
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma"
+			"3AS_60Rnd_EM50_RedPlasma",
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 		respawnMagazines[] = 
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma"
+			"3AS_60Rnd_EM50_RedPlasma",
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 	};
@@ -696,14 +696,14 @@ class CfgVehicles
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma"
+			"3AS_60Rnd_EM50_RedPlasma",
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 		respawnMagazines[] = 
 		{
 			"3AS_60Rnd_EM50_RedPlasma",
 			"3AS_60Rnd_EM50_RedPlasma",
-			"3AS_60Rnd_EM50_RedPlasma"
+			"3AS_60Rnd_EM50_RedPlasma",
 			"Aux501_Weapons_Mags_CISDetonator"
 		};
 	};
