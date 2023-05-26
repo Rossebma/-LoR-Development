@@ -15,6 +15,7 @@ class CfgPatches
             macro_new_helmet(infantry,jlts_recruit),
             "LOR_HELMET_INF_JUNGLE",
             macro_new_helmet(infantry,Thinker)
+            macro_new_helmet(arc,Wolf);
         };
     };
 };
@@ -68,6 +69,44 @@ class CfgWeapons
         };
     };
 
+    class macro_new_helmet(arc,base_jlts): JLTS_CloneHelmetARC
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "501st Aux Team";
+        weaponPoolAvailable = 1;
+        ace_hearing_protection = 0.85; 		
+        ace_hearing_lowerVolume = 0;    
+        subItems[] = {"G_B_Diving","ItemcTabHCam"};
+        displayName = "[LoR] ARC HELM (Base)";
+        picture="\MRC\JLTS\characters\CloneArmor2\data\ui\CloneHelmetARC_ui_ca.paa";
+        model = "\MRC\JLTS\characters\CloneArmor2\CloneHelmetARC.p3d";
+        hiddenSelections[] = {"Camo1"};
+        hiddenSelectionsTextures[] = {"RD501_Helmets\_textures\ARC\ARC.paa"};
+        hiddenSelectionsMaterials[]= {"RD501_Helmets\_materials\Clone_helmet_ARC"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformmodel = "\MRC\JLTS\characters\CloneArmor2\CloneHelmetARC.p3d";
+            hiddenSelections[] = {"Camo1"};
+            modelSides[] = {6};
+            material = -1;
+            explosionShielding = 2.2;
+            minimalHit = 0.01;
+            passThrough = 0.01;
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 50;
+                    passThrough = 0.6;
+                };
+            };
+        };
+    };
+
+
     class LOR_HELMET_INF_JUNGLE : macro_new_helmet(infantry,jlts_recruit)
     {
         displayName = "[LoR] INF HELMET JUNGLE";
@@ -77,5 +116,8 @@ class CfgWeapons
     //INFANTRY//
     NEW_LOR_Inf_Helm_JLTS(Thinker);
     NEW_LOR_Inf_Helm_JLTS(Wolf);
+
+    //ARC//
+    NEW_LOR_Arc_Helm_JLTS(Wolf);
 
 };
