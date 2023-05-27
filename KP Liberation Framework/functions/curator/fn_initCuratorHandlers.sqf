@@ -18,10 +18,6 @@
 #define ZEUSVAR(var) (format ["KPLIB_zeus_%1", var])
 
 if (isServer) then {
-
-    // delete old Liberation mission placed Zeus module
-    deleteVehicle zm1;
-
     // add curator assign EventHandler
     [true, "KPLIB_createZeus", {
         params [
