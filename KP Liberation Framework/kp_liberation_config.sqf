@@ -67,7 +67,11 @@ KP_liberation_preset_blufor = 0;
 1  = Mandalorian
 
 2  = RHS AFRF (EMR/MSV)
-3  = Project OPFOR (Takistan)
+
+
+3  = CIS (Legion Studios)
+
+
 4  = Project OPFOR (Islamic State)
 5  = Project OPFOR (Sahrani)
 
@@ -139,7 +143,7 @@ KP_liberation_preset_civilians = 0;
 14 = CSAT Green Hex arsenal preset
 15 = AAF arsenal preset
 16 = LDF arsenal preset */
-KP_liberation_arsenal = 1;
+KP_liberation_arsenal = 3;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine. */
