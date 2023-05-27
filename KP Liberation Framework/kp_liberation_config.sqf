@@ -100,7 +100,7 @@ KP_liberation_preset_blufor = 0;
 20 = CUP British Armed Forces (Woodland) 
 21 = Conferderation of independent Systems Standard
 22 = Conferderation of independent Systems Winter */
-KP_liberation_preset_opfor = 3;
+KP_liberation_preset_opfor = 1;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -143,7 +143,7 @@ KP_liberation_preset_civilians = 0;
 14 = CSAT Green Hex arsenal preset
 15 = AAF arsenal preset
 16 = LDF arsenal preset */
-KP_liberation_arsenal = 3;
+KP_liberation_arsenal = 0;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine. */
