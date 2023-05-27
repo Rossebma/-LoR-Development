@@ -41,15 +41,15 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
-    "LOP_TKA_Infantry_Rifleman",                                        // Rifleman (Lite)
-    "LOP_TKA_Infantry_Rifleman",                                        // Rifleman (Lite)
-    "LOP_TKA_Infantry_Rifleman_2",                                      // Rifleman
-    "LOP_TKA_Infantry_Rifleman_2",                                      // Rifleman
-    "LOP_TKA_Infantry_Rifleman_3",                                      // Rifleman (AT)
-    "LOP_TKA_Infantry_MG",                                              // Autorifleman
-    "LOP_TKA_Infantry_Marksman",                                        // Marksman
-    "LOP_TKA_Infantry_Corpsman",                                        // Medic
-    "LOP_TKA_Infantry_Engineer"                                         // Engineer
+    opfor_rifleman,
+    opfor_rifleman,
+    opfor_rifleman,
+    opfor_rifleman,
+    opfor_rifleman,
+    opfor_rifleman,
+    opfor_rpg,
+    opfor_rpg,
+    opfor_machinegunner
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
