@@ -72,8 +72,8 @@ light_vehicles = [
     ["212th_B_APC_Wheeled_unarmed_F",200,0,20],                         // Bantha (Transport)
     ["212th_B_APC_Wheeled_02_cannon_F",200,10,20],                      // Bantha (Mk2)
     ["212th_B_APC_Wheeled_fs_cannon_F",200,30,20],                      // Bantha (Mortar)
-    ["212th_B_APC_Wheeled_aa_cannon_F",200,20,20],                       // Bantha (AA)
-    ["212th_B_APC_Wheeled_mg_F",200,20,20],                              // Bantha (MG)
+    ["212th_B_APC_Wheeled_aa_cannon_F",200,20,20],                      // Bantha (AA)
+    ["212th_B_APC_Wheeled_mg_F",200,20,20],                             // Bantha (MG)
     ["RD501_fast_infantry_transport_republic",100,0,20],                // Pathfinder 
     ["O_T_MRAP_02_ghex_F",100,0,20]                                     // Pathfinder Tarn    
 ];
@@ -95,10 +95,11 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-    ["RD501_LAAT_MKIII_Balls",500,100,100],                             // LAAT/i (Balls)
-    ["RD501_LAAT_R",500,150,100],                                       // LAAT/i (Space)
+    ["lsd_heli_laati_transport",500,50,100],                            // LAAT/i Transport
+    ["lsd_heli_laati_medevac",500,100,100],                             // LAAT/i MedEvac
+    ["lsd_heli_laati_ab",500,100,100],                                  // LAAT/i Gunship
+    ["lsd_heli_laati",500,150,100],                                     // LAAT/i Gunship (Pylons)
     ["3AS_LAATC",500,50,125],                                           // LAAT/c
-	["RD501_Laat_LE",300,0,50],                                         // LAAT/le
     ["RD501_v19_MKI",400,100,50],                                       // V-19 Torrent
     ["212th_3AS_Nu_Shuttle",600,0,300],                            		// NuClass Shuttle
     ["RD501_arc_170_blue",1000,300,200],                                // ARC-170
