@@ -139,7 +139,7 @@ GRLIB_arsenal_items=[
 	"RD501_501_avi_vest_acc_4",
 	"RD501_501_avi_vest_acc_4_v2",
 	"RD501_501_avi_vest_acc_5",
-	"RD501_501_avi_vest_acc_5_v2"
+	"RD501_501_avi_vest_acc_5_v2",
 
 	"RD501_501_inf_vest_acc_1_rto",
 	"RD501_501_inf_vest_acc_1_clc",
