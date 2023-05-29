@@ -488,6 +488,7 @@ GRLIB_arsenal_items=[
 
 	//AVI HELM - BASE
 	"RD501_3as_pilot_helmet_base",
+	"RD501_3as_pilot_helmet_base_2",
 
 	//AVI HELM - SPECIAL
 	"RD501_3as_pilot_helmet_Orange",
@@ -503,6 +504,12 @@ GRLIB_arsenal_items=[
 	"RD501_3as_pilot_helmet_Winter",
 	"RD501_3as_pilot_helmet_Casskun",
 	"RD501_3as_pilot_helmet_Ethan",
+	"RD501_3as_pilot_helmet_Kenny",
+	"RD501_3as_pilot_helmet_Mulkot",
+	"RD501_3as_pilot_helmet_Phantom",
+	"RD501_3as_pilot_helmet_Shock",
+	"RD501_3as_pilot_helmet_Knife",
+	"RD501_3as_pilot_helmet_Lightning",
 
 	//ARF HELM
 	"LOR_ARF_Helmet",
