@@ -23,7 +23,7 @@ GRLIB_arsenal_weapons=[
 	//Rocket Launcher
 	"Aux501_Weaps_RPS6",				//[501st] RPS-6 Rocket Launcher
 	"Aux501_Weaps_PLX1",				//[501st] PLX-1 Guided Launcher
-	"LFP_rps6_loaded"					//RPS-6 rocket launcher disposable {Last Force Project}
+	"LFP_RPS6_disposable"				//RPS-6 rocket launcher disposable {Last Force Project}
 ];//1
 
 
@@ -533,8 +533,6 @@ GRLIB_arsenal_items=[
 	"212th_JLTS_Clone_Thermals_NVG_Chip",
 
 	//Glasses
-	"MRC_Glasses_Rangefinder_Black",
-	"442_p2_clone_glass2_44_nh",
 	"SWLB_clone_P2_HUD",
 	"MRC_ARF_Camo_Arid",
 	"MRC_ARF_Camo_Lush",
