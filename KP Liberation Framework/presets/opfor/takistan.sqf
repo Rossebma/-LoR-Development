@@ -35,6 +35,16 @@ opfor_fuel_container = "B_Slingload_01_Fuel_F";             // FUEL CONTAINER
 opfor_ammo_container = "B_Slingload_01_Ammo_F";             // AMMO CONTAINER
 opfor_flag = "ls_commandPost_cis_blue";                                          // Flag
 
+cis_aat = "ls_ground_aat";
+cis_artillery = "3AS_HAGM_CIS";
+cis_mtt = "ls_ground_mtt_cisBlue";
+
+cis_vulture_aa = "3AS_CIS_Vulture_AA_F";
+cis_vulture_cas = "3AS_CIS_Vulture_CAS_F";
+
+cis_hmp = "ls_cis_hmp_transport";
+cis_hmp_gunship = "ls_cis_hmp";
+
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
 Therefore, adding the same value twice or three times means they are more likely to be chosen more often. */
 
@@ -57,47 +67,47 @@ militia_vehicles = [];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    "ls_ground_aat",
-    "3AS_HAGM_CIS",
-    "ls_ground_mtt_cisBlue"
+    cis_aat,
+    cis_artillery,
+    cis_mtt
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "OPTRE_m1015_mule_ins"
+    opfor_transport_truck
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "3AS_HAGM_CIS",
-    "ls_ground_mtt_cisBlue",
-    "3AS_CIS_Vulture_AA_F",
-    "3AS_CIS_Vulture_CAS_F"
+    cis_artillery,
+    cis_mtt,
+    cis_vulture_aa,
+    cis_vulture_cas
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "OPTRE_m1015_mule_ins",
-    "3AS_CIS_Vulture_AA_F"
+    opfor_transport_truck,
+    cis_vulture_aa
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    "OPTRE_m1015_mule_ins",
-    "ls_ground_mtt_cisBlue",
-    "ls_cis_hmp_transport"
+    opfor_transport_truck,
+    cis_mtt,
+    cis_hmp
 
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "ls_cis_hmp_transport",
-    "ls_cis_hmp"
+    cis_hmp,
+    cis_hmp_gunship
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "3AS_CIS_Vulture_AA_F",
-    "3AS_CIS_Vulture_CAS_F"
+    cis_vulture_aa,
+    cis_vulture_cas
 ];
