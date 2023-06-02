@@ -13,8 +13,8 @@ opfor_rifleman = "lsd_cis_b1_standard";                         // Rifleman
 opfor_rpg = "lsd_cis_b1At_standard";                              // Rifleman (LAT)
 opfor_grenadier = "lsd_cis_b1Grenadier_standard";                                // Grenadier
 opfor_machinegunner = "lsd_cis_b1Heavy_standard";                            // Autorifleman
-opfor_heavygunner = "lsd_cisb1_Shotgun_standard";                              // Heavy Gunner
-opfor_marksman = "las_cis_b1Marksman_standard";                           // Marksman
+opfor_heavygunner = "lsd_cis_b1Shotgun_standard";                              // Heavy Gunner
+opfor_marksman = "lsd_cis_b1Marksman_standard";                           // Marksman
 opfor_sharpshooter = "lsd_cis_b1_standard";                       // Sharpshooter
 opfor_sniper = "lsd_cis_b1_standard";                             // Sniper
 opfor_at = "lsd_cis_b1AtMissile_standard";                                       // AT Specialist
@@ -57,7 +57,6 @@ militia_vehicles = [];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    "lsd_car_ast",
     "ls_ground_aat",
     "3AS_HAGM_CIS",
     "ls_ground_mtt_cisBlue"
@@ -70,7 +69,6 @@ opfor_vehicles_low_intensity = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "ls_ground_aat",
     "3AS_HAGM_CIS",
     "ls_ground_mtt_cisBlue",
     "3AS_CIS_Vulture_AA_F",
