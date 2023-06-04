@@ -16,22 +16,22 @@
     Or not, just don't try!
 */
 FOB_typename = "ls_commandPost_republic_blue";                                       // This is the main FOB HQ building.
-FOB_box_typename = "land_3as_Republic_Container_prop";                          // This is the FOB as a container.
-FOB_truck_typename = "212th_B_APC_Wheeled_unarmed_F";                           // This is the FOB as a vehicle.
-Arsenal_typename = "3as_Small_Box_7_prop";	                                   	// This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "RD501_fast_infantry_transport_republic_medic";        // This is the mobile respawn (and medical) truck.
+FOB_box_typename = "B_Slingload_01_Cargo_F";                          // This is the FOB as a container.
+FOB_truck_typename = "B_Truck_01_box_F";                           // This is the FOB as a vehicle.
+Arsenal_typename = "B_supplyCrate_F";	                                   	// This is the virtual arsenal as portable supply crates.
+Respawn_truck_typename = "B_Truck_01_medical_F";        // This is the mobile respawn (and medical) truck.
 huron_typename = "3AS_LAATC";                                        // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_T_Crew_F";                                 // This defines the crew for vehicles.
 pilot_classname = "B_T_Pilot_F";                                   // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "lsd_heli_laati";                      // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "3AS_Barc_501";                 			        // These are the boats which spawn at the stern of the Freedom.
-KP_liberation_truck_classname = "442_argon_transport";                          // These are the trucks which are used in the logistic convoy system.
+KP_liberation_truck_classname = "B_Truck_01_Cargo_F";                          // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";             // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";             // A large storage area for resources.
 KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";                   // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "Land_Airport_Tower_F";                    // The building defined to unlock FOB air vehicle functionality.
-KP_liberation_heli_slot_building = "VR_Area_01_square_1x1_grey_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
-KP_liberation_plane_slot_building = "VR_Area_01_square_1x1_yellow_F";           // The hangar used to increase the GLOBAL fixed-wing cap.
+KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
+KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";           // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate = "CargoNet_01_box_F";                               // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                              // This defines the ammunition crates.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                             // This defines the fuel crates.
@@ -166,7 +166,6 @@ buildings = [
     ["Land_Razorwire_F",0,0,0],
 	["3as_Landingpad_R3_prop",0,0,0],
 	["3as_FOB_Hangar_Prop",0,0,0],
-	["Land_TentHangar_V1_F",0,0,0],
     ["TargetP_Alien1_F",0,0,0],
     ["Land_ClutterCutter_large_F",0,0,0],
     ["Land_lsb_fob_hBarrier_3",0,0,0],
@@ -185,7 +184,7 @@ buildings = [
 ];
 
 support_vehicles = [
-    [Arsenal_typename,25,25,0],
+    [Arsenal_typename,5,5,0],
     [Respawn_truck_typename,200,50,50],
     [FOB_box_typename,500,100,0],
     [FOB_truck_typename,500,100,50],
@@ -201,13 +200,16 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",20,0,0],
-    ["442_argon_repair",300,0,50],                                // Repair Truck
-    ["442_argon_fuel",100,0,250],                                 // Fuel Truck
-    ["442_argon_ammo",100,200,50],                                 // Ammo Truck
-    ["442_argon_medical",200,0,50],                                 // Medical Truck
-    ["B_Slingload_01_Repair_F",200,0,0],                                // Repair Container
-    ["B_Slingload_01_Fuel_F",50,0,200],                                 // Fuel Container
-    ["B_Slingload_01_Ammo_F",50,200,0]                                  // Ammo Container
+    ["B_Truck_01_Repair_F",110,0,25],                                // Repair Truck
+    ["B_Truck_01_fuel_F",60,0,75],                                 // Fuel Truck
+    ["B_Truck_01_ammo_F",60,50,25],                                 // Ammo Truck
+    ["B_Truck_01_cargo_F",65,0,25],                                 // Cargo Truck
+    ["B_Truck_01_transport_F",65,0,25],                                 // Transport Truck
+    ["B_Truck_01_covered_F",65,0,25],                                 // Transport Truck (Covered)
+    ["B_Truck_01_flatbed_F",60,50,25],                                 // Flatbed Truck
+    ["B_Slingload_01_Repair_F",100,0,0],                                // Repair Container
+    ["B_Slingload_01_Fuel_F",50,0,50],                                 // Fuel Container
+    ["B_Slingload_01_Ammo_F",50,50,0]                                  // Ammo Container
 ];
 
 /*
