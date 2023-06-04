@@ -286,5 +286,18 @@ blufor_squad_para = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 elite_vehicles = [
-    "lsd_heli_laati"
+    "212th_B_APC_Wheeled_02_cannon_F",
+    "212th_B_APC_Wheeled_fs_cannon_F",
+    "3as_saber_m1G_501",
+    "3as_ATTE_TCW",
+    "3as_ATAP_Base",
+    "3as_ATJT_Shark",
+    "3as_AV7",
+    "3as_ATJT_TCW",
+    "3AS_RTT_Wheeled",
+    "3as_Jug",
+    "3as_RX200_Base",
+    "3as_UTAT",
+    "RD501_arc_170_blue",
+    "3AS_BTLB_Bomber"
 ];
