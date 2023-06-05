@@ -475,6 +475,8 @@ GRLIB_arsenal_items=[
 	"RD501_arc_helmet_merlin",
 	"SWLB_P2_SpecOps_501st_Helmet ",
 	"SWLB_clone_P2_eod_helmet",
+	"RD501_arc_helmet_Blade",
+	"RD501_arc_helmet_Nightingale",
 
 	"LOR_ARF_Helmet",
 	"LOR_ARF_Helmet_Arctic",
