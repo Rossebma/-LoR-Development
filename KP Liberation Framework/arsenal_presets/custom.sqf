@@ -19,11 +19,12 @@ GRLIB_arsenal_weapons=[
 	"Aux501_Weaps_DC17_Signal",			//[501st] DC-17 Signal Pistol
 	"Aux501_Weaps_DC17A",				//[501st] DC-17A
 	"LFP_dc17arc",						//DC17ARC {Last Force Project}
+  "SW_clone_knife",         //Clone Knife
 
 	//Rocket Launcher
 	"Aux501_Weaps_RPS6",				//[501st] RPS-6 Rocket Launcher
 	"Aux501_Weaps_PLX1",				//[501st] PLX-1 Guided Launcher
-	"LFP_rps6_loaded"					//RPS-6 rocket launcher disposable {Last Force Project}
+	"LFP_RPS6_disposable"				//RPS-6 rocket launcher disposable {Last Force Project}
 ];//1
 
 
@@ -96,6 +97,7 @@ GRLIB_arsenal_magazines=[
 	"ACE_Chemlight_HiRed",
 	"ACE_Chemlight_HiYellow",
 	"ACE_Chemlight_IR",
+  "Aux501_Weapons_Mags_Grenades_Shield_Personal",
 
 	//etc 
 	"Laserbatteries",
@@ -131,23 +133,24 @@ GRLIB_arsenal_items=[
 	//Unsorted
 	"ACE_HuntIR_monitor",
 
-	//vests 
+	//Vests
+	"RD501_501_avi_vest_acc_1",
+	"RD501_501_avi_vest_acc_2",
+	"RD501_501_avi_vest_acc_3",
+	"RD501_501_avi_vest_acc_3_v2",
+	"RD501_501_avi_vest_acc_4",
+	"RD501_501_avi_vest_acc_4_v2",
+	"RD501_501_avi_vest_acc_5",
+	"RD501_501_avi_vest_acc_5_v2",
+
+	"RD501_501_inf_vest_acc_1_clc",
+	"RD501_501_inf_vest_acc_1_med",
 	"RD501_501_inf_vest_acc_1",
-	"RD501_501_inf_vest_acc_1_b",
 	"RD501_501_inf_vest_acc_1_c_medic",
 	"RD501_501_inf_vest_acc_1_c",
 	"RD501_501_inf_vest_acc_1_d",
-	"RD501_501_inf_vest_acc_1_e",
-	"RD501_501_inf_vest_acc_1_f",
-	"RD501_501_inf_vest_acc_1_g",
-	"RD501_501_inf_vest_acc_1_h",
-	"RD501_501_inf_vest_acc_2",
-	"RD501_501_inf_vest_acc_2_b",
-	"RD501_501_inf_vest_acc_2_c",
-	"RD501_501_inf_vest_acc_2_d",
 	"RD501_501_inf_vest_acc_3",
 	"RD501_501_inf_vest_acc_3_b",
-	"RD501_501_inf_vest_acc_4",
 	"RD501_501_inf_vest_acc_5",
 	"RD501_501_inf_vest_acc_5_b",
 	"RD501_501_inf_vest_acc_12_v2",
@@ -156,31 +159,39 @@ GRLIB_arsenal_items=[
 	"RD501_501_inf_vest_acc_6",
 	"RD501_501_inf_vest_acc_7_v2",
 	"RD501_501_inf_vest_acc_7",
-	"RD501_501_inf_vest_acc_8_v2",
-	"RD501_501_inf_vest_acc_8",
 	"RD501_501_inf_vest_acc_9_v2",
 	"RD501_501_inf_vest_acc_9",
 	"RD501_501_inf_vest_acc_10_v2",
 	"RD501_501_inf_vest_acc_10",
+	"RD501_501_inf_vest_acc_11_v2",
+	"RD501_501_inf_vest_acc_11",
+	"RD501_501_inf_vest_acc_13",
 	"RD501_501_inf_vest_acc_m1",
 	"RD501_501_inf_vest_acc_m1_v2",
-	"MRC_Vest_ARC_TL",
-	"RD501_501_arc_vest_acc_4_alt",
+	"RD501_501_inf_vest_acc_r1",
+	"RD501_501_inf_vest_acc_r1_v2",
+
 	"RD501_501_invis_vest_vest",
-	"RD501_501_ab_vest_acc_6",
-	"RD501_501_avi_vest_acc_4_v2",
-	"RD501_501_avi_vest_acc_1",
-	"RD501_501_avi_vest_acc_2",
-	"RD501_501_avi_vest_acc_4",
-	"RD501_501_avi_vest_acc_3",
-	"RD501_501_arc_vest_acc_4",
-	"JLTS_CloneVestARC_501_Jesse",
+	"RD501_501_razorblade_holster_vest_vest",
+	"RD501_501_holster_vest_vest",
+
+	"RD501_501_ab_vest_acc_2",
+	"RD501_501_ab_vest_acc_2_1",
+	"RD501_501_ab_vest_acc_3",
+	"RD501_501_ab_vest_acc_4",
+	"RD501_501_ab_vest_med_cadet",
+	"RD501_501_ab_vest_med_cpl",
+	"RD501_501_ab_vest_med_trooper",
+
 	"Aux212_TankerVest Standard",
 	"Aux212_Tanker_Vest_Section_Commander",
 	"Aux212_Tanker_Vest_Crewman",
 	"Aux212_Tanker_Vest_Crewman_Medic",
 	"Aux212_Tanker_Vest_Crew_Commander",
+
 	"JLTS_CloneVestARC_501_Fives",
+	"JLTS_CloneVestARC_501_Jesse",
+
 	"RD501_501_arc_vest_acc_5_A",
 	"RD501_501_arc_vest_acc_5_B",
 	"RD501_501_arc_vest_acc_5_C",
@@ -197,7 +208,7 @@ GRLIB_arsenal_items=[
 	"LOR_ARF_Vest_Multicam",
 	
 
-	//uniforms
+	//Uniforms
 	"LOR_INF_UNIFORM_CUSTOM_THINKER",
 	"LOR_INF_UNIFORM_AVP_CL",
 	"LOR_INF_UNIFORM_AVP_CT",
@@ -230,7 +241,9 @@ GRLIB_arsenal_items=[
 	"LOR_INF_UNIFORM_PHO_CST",
 	"LOR_INF_UNIFORM_PHO_CFT",
 	"LOR_INF_UNIFORM_CR",
+
 	"SWLB_clone_eod_uniform",
+
 	"LOR_ARF_Uniform_Arctic",
 	"LOR_ARF_Uniform_Desert",
 	"LOR_ARF_Uniform_Jungle",
@@ -238,6 +251,8 @@ GRLIB_arsenal_items=[
 	"LOR_ARF_Uniform_Night",
 	"LOR_ARF_Uniform_Swamp",
 	"LOR_ARF_Uniform_Woodland",
+
+	"LOR_INF_CAMO_JUNGLE",
 
 
 	//Scopes
@@ -302,14 +317,22 @@ GRLIB_arsenal_items=[
 	"ItemGps",
 	"ItemCompass",
 	"ItemWatch",
-	"ACE_IR_Strobe_Item",
+	"ItemGPS",
+	"ToolKit",
+	"ItemRadio",
 	"MineDetector",
+
+	"ItemAndroid",
+	"ItemcTab",
+	"ItemcTabHCam",
+
+	"rd501_JLTS_clone_comlink",
+
+	"ACE_IR_Strobe_Item",
 	"ACE_CableTie",
 	"ACE_Flashlight_MX991",
 	"ACE_EntrenchingTool",
 	"ACE_bodyBag",
-	"ItemGPS",
-	"ToolKit",
 	"ACE_artilleryTable",
 	"ACE_ATragMX",
 	"ACE_Clacker",
@@ -326,21 +349,27 @@ GRLIB_arsenal_items=[
 	"ACE_Sandbag_empty",
 	"ACE_UAVBattery",
 	"ACE_wirecutter",
-	"ItemRadio",
 	"ACE_Altimeter",
-	"ItemAndroid",
 	"acc_flashlight",
-	"ItemcTab",
 	"ACE_Tripod",
 	"ACE_SpottingScope",
 	"ACE_DefusalKit",
 	"ACE_Canteen",
 	"ACE_MapTools",
-	"ItemcTabHCam",
+	
 	"WBK_KatarnCloneKnife",
-	"501st_inf_acc_01_a",
 
-	//Helmets
+	//INF HELM - BASE
+	"LOR_infantry_helmet_jlts_recruit",
+	"RD501_infantry_helmet_jlts_sgt",
+	"RD501_warrant_helmet_jlts_warrant",
+	"RD501_infantry_helmet_jlts_cm",
+	"RD501_infantry_helmet_jlts_cm_c",
+	"RD501_infantry_helmet_jlts_recruit",
+	"SWLB_clone_P2_eod_helmet",
+	"LOR_HELMET_INF_JUNGLE",
+
+	//INF HELM - SPECIAL
 	"RD501_infantry_helmet_Spark",
 	"RD501_infantry_helmet_Rinzler",
 	"RD501_infantry_helmet_Midnight",
@@ -411,7 +440,6 @@ GRLIB_arsenal_items=[
 	"RD501_infantry_helmet_Snoopy",
 	"RD501_infantry_helmet_Soyvolon",
 	"RD501_infantry_helmet_Spud",
-	"RD501_infantry_helmet_Stew",
 	"RD501_infantry_helmet_Sunshine",
 	"RD501_infantry_helmet_Super",
 	"RD501_infantry_helmet_Target",
@@ -427,33 +455,30 @@ GRLIB_arsenal_items=[
 	"RD501_infantry_helmet_Waylander",
 	"RD501_infantry_helmet_Weapon",
 	"RD501_infantry_helmet_Zeros",
-	"RD501_infantry_helmet_Zulu",
 	"RD501_infantry_helmet_Crush",
 	"RD501_infantry_helmet_Crinkcase",
 	"RD501_infantry_helmet_Anta",
-	"RD501_infantry_helmet_ls_base ",
 	"RD501_infantry_helmet_Dusty",
-	"RD501_infantry_helmet_Rushmore",
-
 	"RD501_infantry_helmet_Broad",
-	"RD501_infantry_helmet_Scard",
 	"RD501_infantry_helmet_Sparticus",
 	"RD501_infantry_helmet_Taka",
 	"RD501_infantry_helmet_Taken",
-	
-
-
-	"RD501_infantry_helmet_ls_base",
-
-	"RD501_infantry_helmet_jlts_trooper",
-	"RD501_infantry_helmet_jlts_sgt",
-	"RD501_warrant_helmet_jlts_warrant",
-
-	"RD501_infantry_helmet_jlts_cm",
-	"RD501_infantry_helmet_jlts_cm_c",
-
 	"RD501_infantry_helmet_jlts_odin",
-	"ROR_ARF_Helmet",
+	"LOR_infantry_helmet_Wolf",
+	"LOR_infantry_helmet_Thinker",
+
+	//INF HELM RTO - BASE
+	"RD501_infantry_helmet_ls_base",
+	"SWLB_P2_SpecOps_501st_Helmet ",
+
+	//INF HELM RTO - SPECIAL
+	"RD501_infantry_helmet_Rushmore",
+
+	//AVI HELM - BASE
+	"RD501_3as_pilot_helmet_base",
+	"RD501_3as_pilot_helmet_base_2",
+
+	//AVI HELM - SPECIAL
 	"RD501_3as_pilot_helmet_Orange",
 	"RD501_3as_pilot_helmet_Xavier",
 	"RD501_3as_pilot_helmet_Saltopus",
@@ -464,20 +489,17 @@ GRLIB_arsenal_items=[
 	"RD501_3as_pilot_helmet_Diablo",
 	"RD501_3as_pilot_helmet_Bastil",
 	"RD501_3as_pilot_helmet_Bacon",
-	"212th_Pilot_Helmet_501st",
 	"RD501_3as_pilot_helmet_Winter",
-	"SWLB_clone_501stHawk_helmet",
 	"RD501_3as_pilot_helmet_Casskun",
 	"RD501_3as_pilot_helmet_Ethan",
-	"k_p2_pilot_helmet_501st",
-	"RD501_arc_helmet_deytow",
-	"RD501_3as_pilot_helmet_base",
-	"RD501_arc_helmet_merlin",
-	"SWLB_P2_SpecOps_501st_Helmet ",
-	"SWLB_clone_P2_eod_helmet",
-	"RD501_arc_helmet_Blade",
-	"RD501_arc_helmet_Nightingale",
+	"RD501_3as_pilot_helmet_Kenny",
+	"RD501_3as_pilot_helmet_Mulkot",
+	"RD501_3as_pilot_helmet_Phantom",
+	"RD501_3as_pilot_helmet_Shock",
+	"RD501_3as_pilot_helmet_Knife",
+	"RD501_3as_pilot_helmet_Lightning",
 
+	//ARF HELM
 	"LOR_ARF_Helmet",
 	"LOR_ARF_Helmet_Arctic",
 	"LOR_ARF_Helmet_Jungle",
@@ -488,59 +510,48 @@ GRLIB_arsenal_items=[
 	"LOR_ARF_Helmet_Swamp",
 	"LOR_ARF_Helmet_Woodland",
 
-	"LOR_infantry_helmet_jlts_recruit",
-	
-	"LOR_infantry_helmet_Wolf",
-	"LOR_infantry_helmet_Thinker",
+	//ARC HELM - SPECIAL
+	"RD501_arc_helmet_deytow",
+	"RD501_arc_helmet_merlin",
 	"LOR_arc_helmet_Wolf",
+	"RD501_arc_helmet_deytow",
+	"RD501_3as_pilot_helmet_base",
+	"RD501_arc_helmet_merlin",
+	"RD501_arc_helmet_Blade",
+	"RD501_arc_helmet_Nightingale",
 
-	"RD501_infantry_helmet_jlts_recruit",
+	//NVG's
+	"rd501_JLTS_CloneNVGRange_arc",
+	"rd501_JLTS_CloneNVGMC",
+	"rd501_JLTS_CloneNVG_501st_blue_white",
+	"rd501_JLTS_CloneNVG_501st_full_black",
+	"rd501_JLTS_CloneNVG_501st_full_gray",
+	"rd501_JLTS_CloneNVG_501st_full_red",
+	"rd501_JLTS_CloneNVG_501st_gray_white",
+	"rd501_JLTS_CloneNVG_501st_red_white",
+	"rd501_JLTS_CloneNVG_501st",
+	"rd501_JLTS_CloneNVGCC",
+	"rd501_JLTS_CloneNVGRange",
+	"rd501_JLTS_CloneNVG",
+	"RD501_nvg_shock_trooper",
+	"rd501_jlts_nvchipclean",
+	"RD501_nvg_shock_trooper_enhanced",
+	"212th_JLTS_Clone_Helmet_NVG_Chip",
+	"212th_JLTS_Clone_Thermals_NVG_Chip",
 
-	
-
-	//Uniform-atachements?
-	"327th_Clone_Suspenders_ARF_Facewear",
-	"MRC_Commander_Black",
+	//Glasses
+	"SWLB_clone_P2_HUD",
 	"MRC_ARF_Camo_Arid",
 	"MRC_ARF_Camo_Lush",
 	"MRC_ARF_Camo_SemiArid",
-	"327th_holster",
-	"MRC_Glasses_Kama_Black",
-
-	//NVG's
-	"212th_JLTS_Clone_Helmet_NVG_Chip",
-	"rd501_JLTS_CloneNVG_501st",
-	"rd501_JLTS_CloneNVG_501st_blue_white",
-	"rd501_JLTS_clone_comlink",
-	"SWLB_clone_ARF_antenna_HUD",
-	"rd501_Isd_CloneNVGRange_phase1",
-	"rd501_JLTS_CloneNVGRange_arc",
-	"212th_JLTS_P2_Helmet_Rangefinder",
-	"rd501_JLTS_CloneNVG_501st_red_white",
-	"RD501_nvg_shock_trooper_enhanced",
-	"rd501_JLTS_CloneNVGRange",
-	"rd501_JLTS_CloneNVGMC",
-	"rd501_JLTS_CloneNVGCC",
-
-	//Glasses
-	"MRC_Glasses_Rangefinder_Black",
-	"442_p2_clone_glass2_44_nh",
-	"SWLB_clone_P2_HUD",
 
 	//Binocular
-	"rd501_JLTS_CloneBinocular_black_TI",
-	"rd501_JLTS_CloneBinocular"
+	"rd501_JLTS_CloneBinocular",
+	"rd501_JLTS_CloneBinocular_black_TI"
 ];//3
-
 
 GRLIB_arsenal_backpacks=[
 	//Jumppacks
-	"RD501_JLTS_Clone_jumppack_mc_bn",
-	"RD501_JLTS_Clone_jumppack_mc_MED",
-	"RD501_JLTS_Clone_jumppack_mc_1_1",
-	"RD501_JLTS_Clone_jumppack_mc_1_2",
-	"RD501_JLTS_Clone_jumppack_mc_1_3",
-	"RD501_JLTS_Clone_jumppack_mc_hq_1",
 	"LOR_JP_ARCTIC",
 	"LOR_JP_JUNGLE",
 	"LOR_JP_MULTICAM",
@@ -553,16 +564,30 @@ GRLIB_arsenal_backpacks=[
 	"LOR_JP_S_NIGHT",
 	"LOR_JP_S_SWAMP",
 	"LOR_JP_S_WOODLAND",
-	
-	//BACKPACKS
+	"RD501_JLTS_Clone_jumppack_mc_1_1",
+	"RD501_JLTS_Clone_jumppack_mc_1_2",
+	"RD501_JLTS_Clone_jumppack_mc_1_3",
+	"RD501_JLTS_Clone_jumppack_mc_hq_1",
+	"RD501_JLTS_Clone_jumppack_mc",
+	"RD501_JLTS_Clone_jumppack_mc_2",
+	"RD501_JLTS_Clone_jumppack_mc_MED",
+	"RD501_JLTS_Clone_jumppack_mc_RTO",
+	"RD501_JLTS_Clone_jumppack_mc_avi",
+	"RD501_JLTS_Clone_jumppack_mc_bn",
+	"RD501_JLTS_Clone_jumppack_mc_ltng",
+
+	//Backpacks
 	"RD501_JLTS_Clone_backpack_invisible",
-	"k_clonearc_backpack",
-	"MRC_mini_LR_attachment_arrow",
-	"RD501_JLTS_Clone_backpack_medic",
-	"MRC_Arc_Backpack_arrow",
-	"RD501_JLTS_Clone_backpack_RTO",
-	"RD501_JLTS_Clone_backpack_eod",
-	"RD501_JLTS_Clone_backpack_bomb",
 	"RD501_JLTS_Clone_backpack",
-	"SWLB_clone_backpack_eod"
+	"RD501_JLTS_Clone_backpack_bomb",
+	"RD501_JLTS_Clone_backpack_eod",
+	"RD501_JLTS_Clone_backpack_medic",
+	"RD501_JLTS_Clone_backpack_s",
+	"RD501_JLTS_Clone__invis_LR_attachment",
+	"RD501_JLTS_Clone_LR_attachment",
+	"RD501_JLTS_Clone_RTO_pack_MYN_MED",
+	"RD501_JLTS_Clone_RTO_pack_MYN",
+	"RD501_JLTS_Clone_backpack_RTO",
+	"RD501_JLTS_Clone_ARC_backpack",
+	"RD501_JLTS_Clone_belt_bag"
 ];//4

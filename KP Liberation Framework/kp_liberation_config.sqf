@@ -67,7 +67,11 @@ KP_liberation_preset_blufor = 0;
 1  = Mandalorian
 
 2  = RHS AFRF (EMR/MSV)
-3  = Project OPFOR (Takistan)
+
+
+3  = CIS (Legion Studios)
+
+
 4  = Project OPFOR (Islamic State)
 5  = Project OPFOR (Sahrani)
 
@@ -96,7 +100,7 @@ KP_liberation_preset_blufor = 0;
 20 = CUP British Armed Forces (Woodland) 
 21 = Conferderation of independent Systems Standard
 22 = Conferderation of independent Systems Winter */
-KP_liberation_preset_opfor = 19;
+KP_liberation_preset_opfor = 3;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
