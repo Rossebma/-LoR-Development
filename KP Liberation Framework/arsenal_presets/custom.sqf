@@ -19,7 +19,7 @@ GRLIB_arsenal_weapons=[
 	"Aux501_Weaps_DC17_Signal",			//[501st] DC-17 Signal Pistol
 	"Aux501_Weaps_DC17A",				//[501st] DC-17A
 	"LFP_dc17arc",						//DC17ARC {Last Force Project}
-  "SW_clone_knife",         //Clone Knife
+  	"SW_clone_knife",         //Clone Knife
 
 	//Rocket Launcher
 	"Aux501_Weaps_RPS6",				//[501st] RPS-6 Rocket Launcher
@@ -97,7 +97,7 @@ GRLIB_arsenal_magazines=[
 	"ACE_Chemlight_HiRed",
 	"ACE_Chemlight_HiYellow",
 	"ACE_Chemlight_IR",
-  "Aux501_Weapons_Mags_Grenades_Shield_Personal",
+  	"Aux501_Weapons_Mags_Grenades_Shield_Personal",
 
 	//etc 
 	"Laserbatteries",
@@ -544,6 +544,9 @@ GRLIB_arsenal_items=[
 	"MRC_ARF_Camo_Arid",
 	"MRC_ARF_Camo_Lush",
 	"MRC_ARF_Camo_SemiArid",
+	"327th_Clone_Medic_Belt_Bag_Facewear",
+	"arc_b",
+	"Aux212_ARF_Mask",
 
 	//Binocular
 	"rd501_JLTS_CloneBinocular",
