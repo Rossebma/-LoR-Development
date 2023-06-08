@@ -79,7 +79,7 @@ class cfgWeapons
                 class Neck
                 {
                     hitpointName = "HitNeck";
-                    armor = 4000;
+                    armor = 5000;
                     passThrough = 0.2;
                 };
                 class Arms
@@ -104,7 +104,7 @@ class cfgWeapons
 
 	class LOR_ARC_VEST_A: LOR_ARC_VEST_BASE
 	{
-		displayName="[LoR] ARC Weste (Montes)";
+		displayName="[LoR] ARC Weste (A)";
 		hiddenSelectionsTextures[]=
 		{
 			"LOR_WESTEN\data\arc_acc_05_A.paa"
@@ -112,7 +112,7 @@ class cfgWeapons
 	};
 	class LOR_ARC_VEST_B: LOR_ARC_VEST_BASE
 	{
-		displayName="[LoR] ARC Weste (Ants)";
+		displayName="[LoR] ARC Weste (B)";
 		hiddenSelectionsTextures[]=
 		{
 			"LOR_WESTEN\data\arc_acc_05_B.paa"
@@ -120,7 +120,7 @@ class cfgWeapons
 	};
 	class LOR_ARC_VEST_C: LOR_ARC_VEST_BASE
 	{
-		displayName="[LoR] ARC Weste (Wolf)";
+		displayName="[LoR] ARC Weste (C)";
 		hiddenSelectionsTextures[]=
 		{
 			"LOR_WESTEN\data\arc_acc_05_C.paa"
@@ -128,7 +128,7 @@ class cfgWeapons
 	};
 	class LOR_ARC_VEST_D: LOR_ARC_VEST_BASE
 	{
-		displayName="[LoR] ARC Weste (VYKE)";
+		displayName="[LoR] ARC Weste (D)";
 		hiddenSelectionsTextures[]=
 		{
 			"LOR_WESTEN\data\arc_acc_05_D.paa"
@@ -136,7 +136,7 @@ class cfgWeapons
 	};
 	class LOR_ARC_VEST_E: LOR_ARC_VEST_BASE
 	{
-		displayName="[LoR] ARC Weste (Wood)";
+		displayName="[LoR] ARC Weste (E)";
 		hiddenSelectionsTextures[]=
 		{
 			"LOR_WESTEN\data\arc_acc_05_E.paa"
