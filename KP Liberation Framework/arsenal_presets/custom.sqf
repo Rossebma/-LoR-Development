@@ -196,11 +196,11 @@ GRLIB_arsenal_items=[
 	"JLTS_CloneVestARC_501_Fives",
 	"JLTS_CloneVestARC_501_Jesse",
 
-	"RD501_501_arc_vest_acc_5_A",
-	"RD501_501_arc_vest_acc_5_B",
-	"RD501_501_arc_vest_acc_5_C",
-	"RD501_501_arc_vest_acc_5_D",
-	"RD501_501_arc_vest_acc_5_E",
+	"LOR_ARC_VEST_A",
+	"LOR_ARC_VEST_B",
+	"LOR_ARC_VEST_C",
+	"LOR_ARC_VEST_D",
+	"LOR_ARC_VEST_E",
 
 	"LOR_ARF_Vest",
 	"LOR_ARF_Vest_Arctic",
