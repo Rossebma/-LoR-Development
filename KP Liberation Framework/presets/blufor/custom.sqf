@@ -102,8 +102,7 @@ air_vehicles = [
     ["3AS_LAATC",500,50,125],                                           // LAAT/c
     ["RD501_v19_MKI",400,100,50],                                       // V-19 Torrent
     ["212th_3AS_Nu_Shuttle",600,0,300],                            		// NuClass Shuttle
-    ["RD501_arc_170_blue",1000,300,200],                                // ARC-170
-    ["3AS_BTLB_Bomber",1000,500,200]                                    // BTL-Y-Wing
+    ["RD501_arc_170_blue",1000,300,200]                                 // ARC-170
 ];
 
 static_vehicles = [
