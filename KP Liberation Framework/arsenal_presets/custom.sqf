@@ -13,7 +13,7 @@ GRLIB_arsenal_weapons=[
 	"Aux501_Weaps_Z6",					//[501st] Z-6 Rotory Blaster Cannon
 	"LFP_DC19",							//DC-19 cabine {Last Force Project}
 	"327th_firepuncher_rifle",			//[327th] 773 Firepuncher Anti-Materiel Rifle
-	"Aux501_Weaps_WestarM5",			// []501st] Westar-M5
+	"Aux501_Weaps_WestarM5",			//[501st] Westar-M5
 
 	//Pistols
 	"Aux501_Weaps_DC17",				//[501st] DC-17
@@ -68,8 +68,8 @@ GRLIB_arsenal_magazines=[
 	"Aux501_Weapons_Mags_10mw400",				//[501st] Z-6 Rotory Blaster Cannon
 	"LFP_DC19_Mag",								//DC-19 cabine {Last Force Project}
 	"327th_Firepuncher_mag",					//[327th] 773 Firepuncher Anti-Materiel Rifle
-	"Aux501_Weapons_Mags_20mw40",				// [501st] Westar M5 
-	"Aux501_Weapons_Mags_20mwsp40",				// [501st] Westar M5 
+	"Aux501_Weapons_Mags_20mw40",				//[501st] Westar M5 
+	"Aux501_Weapons_Mags_20mwsp40",				//[501st] Westar M5 
 
 	//Pistols
 	"Aux501_Weapons_Mags_20mwdp20",				//[501st] DC-17
