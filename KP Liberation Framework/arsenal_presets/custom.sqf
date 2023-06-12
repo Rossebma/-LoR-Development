@@ -13,6 +13,7 @@ GRLIB_arsenal_weapons=[
 	"Aux501_Weaps_Z6",					//[501st] Z-6 Rotory Blaster Cannon
 	"LFP_DC19",							//DC-19 cabine {Last Force Project}
 	"327th_firepuncher_rifle",			//[327th] 773 Firepuncher Anti-Materiel Rifle
+	"Aux501_Weaps_WestarM5",			// []501st] Westar-M5
 
 	//Pistols
 	"Aux501_Weaps_DC17",				//[501st] DC-17
@@ -51,6 +52,7 @@ GRLIB_arsenal_magazines=[
 	"Aux501_Weapons_Mags_GL_smoke_yellow3",
 	"Aux501_Weapons_Mags_GL_smoke_white6",
 	"ACE_HuntIR_M203",
+	"Aux501_Weapons_Mags_GL_HE1",				// [501st] Westar M5 
 
 	//Rifles
 	"Aux501_Weapons_Mags_20mwdp30",				//[501st] DC-15A
@@ -66,6 +68,8 @@ GRLIB_arsenal_magazines=[
 	"Aux501_Weapons_Mags_10mw400",				//[501st] Z-6 Rotory Blaster Cannon
 	"LFP_DC19_Mag",								//DC-19 cabine {Last Force Project}
 	"327th_Firepuncher_mag",					//[327th] 773 Firepuncher Anti-Materiel Rifle
+	"Aux501_Weapons_Mags_20mw40",				// [501st] Westar M5 
+	"Aux501_Weapons_Mags_20mwsp40",				// [501st] Westar M5 
 
 	//Pistols
 	"Aux501_Weapons_Mags_20mwdp20",				//[501st] DC-17
@@ -192,11 +196,11 @@ GRLIB_arsenal_items=[
 	"JLTS_CloneVestARC_501_Fives",
 	"JLTS_CloneVestARC_501_Jesse",
 
-	"RD501_501_arc_vest_acc_5_A",
-	"RD501_501_arc_vest_acc_5_B",
-	"RD501_501_arc_vest_acc_5_C",
-	"RD501_501_arc_vest_acc_5_D",
-	"RD501_501_arc_vest_acc_5_E",
+	"LOR_ARC_VEST_A",
+	"LOR_ARC_VEST_B",
+	"LOR_ARC_VEST_C",
+	"LOR_ARC_VEST_D",
+	"LOR_ARC_VEST_E",
 
 	"LOR_ARF_Vest",
 	"LOR_ARF_Vest_Arctic",
@@ -289,6 +293,7 @@ GRLIB_arsenal_items=[
 	"3as_bipod_dc15l_f",			//3AS DC15L Bipod
 	"bipod_01_f_blk",				//Bipod (Black) [NATO]
 	"aux501_muzzle_flash",			//Flash Hider Chip
+	"aux501_muzzle_surpressor",		// Surpressor Chip
 
 
 	//medical items
