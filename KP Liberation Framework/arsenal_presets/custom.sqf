@@ -516,14 +516,12 @@ GRLIB_arsenal_items=[
 	"LOR_ARF_Helmet_Woodland",
 
 	//ARC HELM - SPECIAL
-	"RD501_arc_helmet_deytow",
-	"RD501_arc_helmet_merlin",
-	"LOR_arc_helmet_Wolf",
-	"RD501_arc_helmet_deytow",
-	"RD501_3as_pilot_helmet_base",
-	"RD501_arc_helmet_merlin",
-	"RD501_arc_helmet_Blade",
-	"RD501_arc_helmet_Nightingale",
+	"LOR_arc_helmet_Wolf",				// Wolf
+	"RD501_arc_helmet_deytow",			// Ants 
+	"RD501_arc_helmet_Blade",			// Montes
+	"RD501_arc_helmet_Nightingale",		// VYKE
+	"RD501_arc_helmet_Brad",			// Wood 
+	"RD501_arc_helmet_base_jlts",		// Base Helm 
 
 	//NVG's
 	"rd501_JLTS_CloneNVGRange_arc",
