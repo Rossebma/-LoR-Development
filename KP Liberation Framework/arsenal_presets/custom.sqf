@@ -503,6 +503,7 @@ GRLIB_arsenal_items=[
 	"RD501_3as_pilot_helmet_Shock",
 	"RD501_3as_pilot_helmet_Knife",
 	"RD501_3as_pilot_helmet_Lightning",
+	"RD501_3as_pilot_helmet_Sazi",
 
 	//ARF HELM
 	"LOR_ARF_Helmet",
